@@ -85,6 +85,12 @@ position: absolute;
     animation-timing-function: ease-in-out;
 }
 
+#portfolioSection p {
+	color: gray;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 12px;
+}
+
 #aboutMe h2 {
 	padding: 30px;
 max-width: 1194px;
