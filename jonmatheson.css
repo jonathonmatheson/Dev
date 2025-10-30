@@ -47,7 +47,7 @@ main {
 #aboveFlap::after {
 	/* background: url("https://i.imgur.com/N98cHz9.png"); */
 background: url("https://drunksylvari.neocities.org/img/devpic.gif");
-  background-size: auto;
+  background-size: 33%;
   background-position: bottom left;
   background-repeat: no-repeat;
   top:0;
@@ -444,6 +444,7 @@ span.jon::after {
     text-shadow: 2.6208764473832513px 0 1px rgba(0,30,255,0.5), -2.6208764473832513px 0 1px rgba(255,0,80,0.3), 0 0 3px;
   }
 }
+
 
 
 
