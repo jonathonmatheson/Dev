@@ -86,7 +86,7 @@ position: absolute;
     animation-timing-function: ease-in-out;
 }
 
-#portfolioSection p, #popupContent p {
+#portfolioSection p, .popupContent p {
 	color: gray;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 12px;
@@ -477,6 +477,7 @@ span.jon::after {
         margin: 0 auto;
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
       }
+
 
 
 
