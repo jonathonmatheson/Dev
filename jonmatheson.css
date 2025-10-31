@@ -86,7 +86,7 @@ position: absolute;
     animation-timing-function: ease-in-out;
 }
 
-#portfolioSection p {
+#portfolioSection p, #popupContent p {
 	color: gray;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 12px;
@@ -163,7 +163,7 @@ a, .closeBtn {
   background-position: 0 -0.3em;
   }
 
-  a:hover {
+  a:hover, .closeBtn:hover {
     background-size: 100% 100%;
   }
 
@@ -463,6 +463,11 @@ span.jon::after {
         background: rgba(0, 0, 0, 0.1);
         align-content: space-evenly;
         height: 100vh;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
       }
       .popupContent {
         position: relative;
@@ -472,5 +477,6 @@ span.jon::after {
         margin: 0 auto;
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
       }
+
 
 
